@@ -9,17 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "dotenv": "^18.0.9",
+    "ethers": "^6.17.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.2.1",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
+    "hardhat": "^2.29.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
